@@ -1,89 +1,134 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name='viewport' content='width=320,initial-scale=1,user-scalable=0'>
+  <link href="reset.css" rel="stylesheet">
+  <style>
+    body {
+      font-size: 100%;
+      font-family: sans-serif;
+      line-height: 1.4em;
+    }
+    a {
+      text-decoration: none;
+    }
+    .acties {
+      width: 100%;
+      font-size: 2em;
+      height: 2em;
+      position: fixed;
+      bottom: 0;
+    }
+    .bakken {
+      margin-bottom: 4em;
+    }
+    .bak {
+      margin: 10px;
+      padding: 4px;
+      border-bottom: 1px solid silver;
+      padding-bottom: 14px;
+    }
+    .id {
+      display: inline-block;
+      width: 2.4em;
+      line-height: 4em;
+      text-align: center;
+      font-weight: bold;
+    }
+    .logo {
+      display: inline-block;
+      vertical-align: bottom;
+      width: 4em;
+      height: 4em;
+      border: 1px solid silver;
+    }
+    .logo img {
+      width: 4em;
+      height: 4em;
+    }
+    .info {
+      display: inline-block;
+      padding-left: 1em;
+    }
+  </style>
 </head>
 <body>
-<ul>
-<li class="bak">
+<select class="acties" onchange="window.location = 'foto.html'">
+  <option selected disabled>+ ACTIES</option>
+  <option>LEGEN</option>
+  <option>RAPEN</option>
+</select>
+<ul class="bakken">
+<a href="bak.html"><li class="bak">
   <div class="id">12</div>
-  <div class="logo"><img src=""></div>
+  <div class="logo"><img src="http://www.zundert.nl/plaat.php?fileid=4737&f=b3166bb2c857b862b089e802cd785c666240f78f4fde9dc76fba61c2ed810bfccb446ed9f732c76955501e785ab4d845282ec615ee786d66859530859bed3248"></div>
   <div class="info">
-    <div class="adres">Damstraat 12</div>
-    <div class="afstand">23m</div>
+    <div class="adres">Damstraat 12 (<span class="afstand">2 meter</span>)</div>
   </div>
-</li>
-<li class="bak">
-  <div class="id">12</div>
-  <div class="logo"><img src=""></div>
+</li></a>
+<a href="bak.html"><li class="bak">
+  <div class="id">32</div>
+  <div class="logo"><img src="http://www.zundert.nl/plaat.php?fileid=4737&f=b3166bb2c857b862b089e802cd785c666240f78f4fde9dc76fba61c2ed810bfccb446ed9f732c76955501e785ab4d845282ec615ee786d66859530859bed3248"></div>
   <div class="info">
-    <div class="adres">Damstraat 12</div>
-    <div class="afstand">23m</div>
+    <div class="adres">Damstraat 18 (<span class="afstand">38 meter</span>)</div>
   </div>
-</li>
-<li class="bak">
-  <div class="id">12</div>
-  <div class="logo"><img src=""></div>
+</li></a>
+<a href="bak.html"><li class="bak">
+  <div class="id">918</div>
+  <div class="logo"><img src="http://www.zundert.nl/plaat.php?fileid=4737&f=b3166bb2c857b862b089e802cd785c666240f78f4fde9dc76fba61c2ed810bfccb446ed9f732c76955501e785ab4d845282ec615ee786d66859530859bed3248"></div>
   <div class="info">
-    <div class="adres">Damstraat 12</div>
-    <div class="afstand">23m</div>
+    <div class="adres">Damstraat 48 (<span class="afstand">57 meter</span>)</div>
   </div>
-</li>
-<li class="bak">
-  <div class="id">12</div>
-  <div class="logo"><img src=""></div>
+</li></a>
+<a href="bak.html"><li class="bak">
+  <div class="id">291</div>
+  <div class="logo"><img src="http://www.zundert.nl/plaat.php?fileid=4737&f=b3166bb2c857b862b089e802cd785c666240f78f4fde9dc76fba61c2ed810bfccb446ed9f732c76955501e785ab4d845282ec615ee786d66859530859bed3248"></div>
   <div class="info">
-    <div class="adres">Damstraat 12</div>
-    <div class="afstand">23m</div>
+    <div class="adres">Dam (<span class="afstand">102 meter</span>)</div>
   </div>
-</li>
-<li class="bak">
-  <div class="id">12</div>
-  <div class="logo"><img src=""></div>
+</li></a>
+<a href="bak.html"><li class="bak">
+  <div class="id">6</div>
+  <div class="logo"><img src="http://www.zundert.nl/plaat.php?fileid=4737&f=b3166bb2c857b862b089e802cd785c666240f78f4fde9dc76fba61c2ed810bfccb446ed9f732c76955501e785ab4d845282ec615ee786d66859530859bed3248"></div>
   <div class="info">
-    <div class="adres">Damstraat 12</div>
-    <div class="afstand">23m</div>
+    <div class="adres">Damrak 12 (<span class="afstand">127 meter</span>)</div>
   </div>
-</li>
-<li class="bak">
-  <div class="id">12</div>
-  <div class="logo"><img src=""></div>
+</li></a>
+<a href="bak.html"><li class="bak">
+  <div class="id">531</div>
+  <div class="logo"><img src="http://www.zundert.nl/plaat.php?fileid=4737&f=b3166bb2c857b862b089e802cd785c666240f78f4fde9dc76fba61c2ed810bfccb446ed9f732c76955501e785ab4d845282ec615ee786d66859530859bed3248"></div>
   <div class="info">
-    <div class="adres">Damstraat 12</div>
-    <div class="afstand">23m</div>
+    <div class="adres">Damrak 28 (<span class="afstand">164 meter</span>)</div>
   </div>
-</li>
-<li class="bak">
-  <div class="id">12</div>
-  <div class="logo"><img src=""></div>
+</li></a>
+<a href="bak.html"><li class="bak">
+  <div class="id">16</div>
+  <div class="logo"><img src="http://www.zundert.nl/plaat.php?fileid=4737&f=b3166bb2c857b862b089e802cd785c666240f78f4fde9dc76fba61c2ed810bfccb446ed9f732c76955501e785ab4d845282ec615ee786d66859530859bed3248"></div>
   <div class="info">
-    <div class="adres">Damstraat 12</div>
-    <div class="afstand">23m</div>
+    <div class="adres">Damrak 39 (<span class="afstand">182 meter</span>)</div>
   </div>
-</li>
-<li class="bak">
-  <div class="id">12</div>
-  <div class="logo"><img src=""></div>
+</li></a>
+<a href="bak.html"><li class="bak">
+  <div class="id">31</div>
+  <div class="logo"><img src="http://www.zundert.nl/plaat.php?fileid=4737&f=b3166bb2c857b862b089e802cd785c666240f78f4fde9dc76fba61c2ed810bfccb446ed9f732c76955501e785ab4d845282ec615ee786d66859530859bed3248"></div>
   <div class="info">
-    <div class="adres">Damstraat 12</div>
-    <div class="afstand">23m</div>
+    <div class="adres">Damrak 51 (<span class="afstand">241 meter</span>)</div>
   </div>
-</li>
-<li class="bak">
-  <div class="id">12</div>
-  <div class="logo"><img src=""></div>
+</li></a>
+<a href="bak.html"><li class="bak">
+  <div class="id">75</div>
+  <div class="logo"><img src="http://www.zundert.nl/plaat.php?fileid=4737&f=b3166bb2c857b862b089e802cd785c666240f78f4fde9dc76fba61c2ed810bfccb446ed9f732c76955501e785ab4d845282ec615ee786d66859530859bed3248"></div>
   <div class="info">
-    <div class="adres">Damstraat 12</div>
-    <div class="afstand">23m</div>
+    <div class="adres">Damrak 86 (<span class="afstand">312 meter</span>)</div>
   </div>
-</li>
-<li class="bak">
-  <div class="id">12</div>
-  <div class="logo"><img src=""></div>
+</li></a>
+<a href="bak.html"><li class="bak">
+  <div class="id">113</div>
+  <div class="logo"><img src="http://www.zundert.nl/plaat.php?fileid=4737&f=b3166bb2c857b862b089e802cd785c666240f78f4fde9dc76fba61c2ed810bfccb446ed9f732c76955501e785ab4d845282ec615ee786d66859530859bed3248"></div>
   <div class="info">
-    <div class="adres">Damstraat 12</div>
-    <div class="afstand">23m</div>
+    <div class="adres">Damrak 112 (<span class="afstand">451 meter</span>)</div>
   </div>
-</li>
+</li></a>
 </ul>
 </body>
 </html>
